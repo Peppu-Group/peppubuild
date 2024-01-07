@@ -524,7 +524,7 @@ body {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 480px) {
     #itwl {
         font-size: 50px;
     }
@@ -539,7 +539,7 @@ body {
     }
 
     #ievw {
-        height: 3916px;
+        height: 4000px;
     }
 
     #iqqyq {
