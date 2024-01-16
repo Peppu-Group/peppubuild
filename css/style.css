@@ -732,3 +732,196 @@ a {
         align-items: center;
     }
 }
+
+.gjs-row{
+    display:flex;
+    justify-content:flex-start;
+    align-items:stretch;
+    flex-wrap:nowrap;
+    padding-top:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    padding-left:10px;
+  }
+  .gjs-cell{
+    min-height:75px;
+    flex-grow:1;
+    flex-basis:100%;
+  }
+  #i49vdw{
+    background-color:#000000;
+    padding:10% 10% 10% 10%;
+  }
+  #ibtuqa{
+    text-align:center;
+    color:white;
+    font-family:Helvetica, sans-serif;
+    font-size:5vw;
+    padding:3vh 10px 10px 10px;
+    text-shadow:1px 1px 1px white;
+  }
+  #ifx7ys{
+    padding:10px 10px 10px 10px;
+    width:300px;
+    font-family:Helvetica, sans-serif;
+    font-size:18px;
+    border-radius:10px;
+    border:5px solid white;
+    background-repeat:repeat;
+    background-position:left top;
+    background-attachment:scroll;
+    background-size:auto;
+    background-image:linear-gradient(to right, #88c435 0%, #395617 100%);
+  }
+  #i8zzei{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:50px;
+  }
+  #ibgbhm{
+    padding:10px 10px 10px 10px;
+    width:300px;
+    font-family:Helvetica, sans-serif;
+    font-size:18px;
+    border-radius:10px;
+    border:5px solid white;
+    background-repeat:repeat;
+    background-position:left top;
+    background-attachment:scroll;
+    background-size:auto;
+    background-image:linear-gradient(to right, #88c435 0%, #395617 100%);
+  }
+  #i8d5hc{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:50px;
+  }
+  #iyb74l{
+    padding:10% 10px 10px 10px;
+    margin:0px 0px 10vh 0px;
+  }
+  #ix1mmp{
+    text-align:center;
+    font-family:Helvetica, sans-serif;
+    font-size:4vw;
+    text-shadow:1px 1px 1px white;
+    color:white;
+  }
+  #i78qwy{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+  #ipq7qa{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+  }
+  #ileg8l{
+    background-color:white;
+    border-radius:20px;
+  }
+  #i7x9ek{
+    padding:10px;
+    font-family:Helvetica, sans-serif;
+  }
+  #ibpoiu{
+    color:black;
+    width:100px;
+  }
+  #i7vbfg{
+    padding:10px 10px 10px 10px;
+    width:300px;
+    font-family:Helvetica, sans-serif;
+    font-size:18px;
+    border-radius:10px;
+    border:5px solid black;
+    background-repeat:repeat;
+    background-position:left top;
+    background-attachment:scroll;
+    background-size:auto;
+    background-image:linear-gradient(to right, #88c435 0%, #395617 100%);
+  }
+  #ilg1yb{
+    justify-content:center;
+    align-items:center;
+    min-height:50px;
+  }
+  #iqv0jq{
+    padding:10px 10px 10px 10px;
+    width:300px;
+    font-family:Helvetica, sans-serif;
+    font-size:18px;
+    border-radius:10px;
+    border:5px solid white;
+    background-repeat:repeat;
+    background-position:left top;
+    background-attachment:scroll;
+    background-size:auto;
+    background-image:linear-gradient(to right, #88c435 0%, #395617 100%);
+  }
+  #igazpu{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:50px;
+  }
+  @media (max-width: 992px){
+    #ibtuqa{
+      padding:5% 10px 5% 10px;
+    }
+    #ix1mmp{
+      padding:5% 10px 5% 10px;
+    }
+    #ibpoiu{
+      width:150px;
+    }
+  }
+  @media (max-width: 768px){
+    .gjs-row{
+      flex-wrap:wrap;
+    }
+    #ibtuqa{
+      font-size:8vw;
+    }
+    #ix1mmp{
+      font-size:8vw;
+    }
+  }
+  @media (max-width: 480px){
+    #ibtuqa{
+      font-size:50px;
+      padding:10vh 10px 5% 10px;
+    }
+    #ifx7ys{
+      width:230px;
+    }
+    #ibgbhm{
+      width:230px;
+    }
+    #iyb74l{
+      padding:10vh 5px 10px 5px;
+      margin:0px 0px 10vh 0px;
+    }
+    #i49vdw{
+      padding:10% 5% 10% 5%;
+    }
+    #ix1mmp{
+      font-size:25px;
+      padding:10px 10px 5% 10px;
+      text-shadow:0px 0px 0px black;
+    }
+    #ileg8l{
+      margin:0px 0px 0px 0px;
+      padding:0px 0px 0px 0px;
+    }
+    #i7vbfg{
+      width:230px;
+    }
+    #iqv0jq{
+      width:230px;
+    }
+  }
+  
