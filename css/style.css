@@ -135,7 +135,7 @@ a {
     background-position: left top;
     background-attachment: scroll;
     background-size: auto;
-    background-image: radial-gradient(circle at right, #2e3c1c 0%, #0f0f0e 98%);
+    box-shadow:0px 0px 5px 0px  white inset;
 }
 
 #i3cart {
@@ -237,9 +237,10 @@ a {
 }
 
 #ic8w0z {
-    color: black;
+    background-color: white;
     width: 50px;
     margin: 10px 10px 10px 10px;
+    border-radius: 50%;
 }
 
 #i8dh71 {
