@@ -2,13 +2,30 @@
     box-sizing: border-box;
 }
 
+a:hover {
+    color: #51ef59 !important; 
+  }
+
 body {
     margin: 0;
 }
 
-a {
-  text-decoration: none; 
-  color: #cefad0; 
+.bg-custom {
+    background-color: #000000
+}
+
+.navbar-custom a {
+    color: white;
+    margin: 10px;
+}
+
+.footer-link a {
+    color: white;
+    text-decoration: none;
+}
+
+.dropdown-menu a {
+    color: black;
 }
 
 .gjs-row {
@@ -45,6 +62,50 @@ a {
     color: white;
     text-align: center;
 }
+.container-fluid img{
+    width:50px;
+    height:30px;
+}
+
+.text-wh {
+    color: white;
+}
+  
+.plans {
+    margin: 3%;
+    text-align: center;
+}
+
+#itwn {
+    padding-top: 5%;
+    padding-bottom: 2%;
+    font-family: Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+}
+
+.itwn-text {
+    font-family: Helvetica, sans-serif;
+    text-align: center; 
+    margin-bottom: 4%;
+}
+
+.custom-body {
+    background-image: url('./peppu-background.jpg');
+}
+
+.full-body {
+    height: 80vh;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(81, 239, 89, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+  
+  .custom-toggler.navbar-toggler {
+    border-color: #51ef59;
+  } 
 
 #ikjk {
     box-shadow: 0px 0px 5px 0px #e6dbdb;
@@ -774,6 +835,11 @@ a {
     background-size:auto;
     background-image:linear-gradient(to right, #88c435 0%, #395617 100%);
   }
+
+  .imgb {
+    border: 3px groove #008000;
+  }
+
   #i8zzei{
     display:flex;
     justify-content:center;
