@@ -4,7 +4,17 @@
 
 a:hover {
     color: #51ef59 !important; 
-  }
+}
+
+.fonttick {
+    font-size: 1.5rem; 
+    color: #51ef59;
+    margin-right: 10px;
+}
+
+RouterLink:hover {
+    color: #51ef59 !important; 
+}
 
 body {
     margin: 0;
@@ -19,12 +29,26 @@ body {
     margin: 10px;
 }
 
+.navbar-custom RouterLink {
+    color: white;
+    margin: 10px;
+}
+
 .footer-link a {
     color: white;
     text-decoration: none;
 }
 
+.footer-link RouterLink {
+    color: white;
+    text-decoration: none;
+}
+
 .dropdown-menu a {
+    color: black;
+}
+
+.dropdown-menu RouterLink {
     color: black;
 }
 
@@ -93,7 +117,7 @@ body {
 }
 
 .custom-body {
-    background-image: url('./peppu-background.jpg');
+    background-image: url('../img/peppu-background.jpg');
 }
 
 .full-body {
@@ -991,4 +1015,11 @@ body {
       width:230px;
     }
   }
-  
+  .div {
+    position: relative;
+    display: inline-block;
+  }
+
+  .c-height {
+    height: 480px;
+  }
