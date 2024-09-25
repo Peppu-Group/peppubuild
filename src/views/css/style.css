@@ -1023,3 +1023,7 @@ body {
   .c-height {
     height: 480px;
   }
+
+  .link {
+    color: black !important;
+  }

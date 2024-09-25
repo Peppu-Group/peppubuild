@@ -8,11 +8,11 @@
         </h2>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="export-tab" data-bs-toggle="tab" data-bs-target="#export" type="button"
-                    role="tab" aria-controls="export" aria-selected="true">Export (you host)</button>
+                <button class="nav-link active link" id="export-tab" data-bs-toggle="tab" data-bs-target="#export" type="button"
+                    role="tab" aria-controls="export" >Export (you host)</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="publish-tab" data-bs-toggle="tab" data-bs-target="#publish" type="button"
+                <button class="nav-link link" id="publish-tab" data-bs-toggle="tab" data-bs-target="#publish" type="button"
                     role="tab" aria-controls="publish" aria-selected="false">Publish (we host)</button>
             </li>
         </ul>
@@ -63,7 +63,7 @@
                 <tr>
                     <th scope="row">Projects (CMS)</th>
                     <td>1</td>
-                    <td>1s</td>
+                    <td>1</td>
                     <td>1 - 2</td>
                     <td>Unlimited</td>
                 </tr>
