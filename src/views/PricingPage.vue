@@ -8,12 +8,12 @@
         </h2>
         <ul class="nav nav-tabs" id="myTab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="nav-link active link" id="export-tab" data-bs-toggle="tab" data-bs-target="#export" type="button"
-                    role="tab" aria-controls="export" >Export (you host)</button>
+                <button class="nav-link active link" id="publish-tab" data-bs-toggle="tab" data-bs-target="#publish" type="button"
+                    role="tab" aria-controls="publish" aria-selected="false">Publish (we host)</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="nav-link link" id="publish-tab" data-bs-toggle="tab" data-bs-target="#publish" type="button"
-                    role="tab" aria-controls="publish" aria-selected="false">Publish (we host)</button>
+                <button class="nav-link link" id="export-tab" data-bs-toggle="tab" data-bs-target="#export" type="button"
+                    role="tab" aria-controls="export" >Export (you host)</button>
             </li>
         </ul>
         <div  class="tab-content" id="myTabContent">
